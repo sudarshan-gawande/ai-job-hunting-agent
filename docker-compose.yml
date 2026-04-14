@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  job-agent:
+    build: .
+    container_name: ai-job-hunting-agent
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - ./config.yaml:/app/config.yaml
+      - ./data:/app/data
+      - ./job_tracker.csv:/app/job_tracker.csv
+      - ./seen_jobs.json:/app/seen_jobs.json
+      - ./agent.log:/app/agent.log
+    environment:
+      - TZ=Asia/Kolkata

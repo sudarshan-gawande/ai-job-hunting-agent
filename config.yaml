@@ -1,0 +1,101 @@
+# ============================================================
+# JOB HUNTING AGENT v5.0 — CONFIGURATION
+# ============================================================
+
+profile:
+  name: "Sudarshan Gawande"
+  email: "xxxxxx@gmail.com"
+  phone: "xxxxxxx1086"
+  position: "DevOps Engineer"
+  experience_years: 3.5
+  skills:
+    - AWS
+    - Kubernetes
+    - Terraform
+    - Docker
+    - Jenkins
+    - GitHub Actions
+    - CI/CD
+    - Linux
+    - Python
+    - Ansible
+    - Prometheus
+    - Grafana
+  certifications:
+    - "AWS Certified Cloud Practitioner"
+  domain: "FinTech / BFSI"
+  current_company: "National Stock Exchange of India (NSE)"
+  resume_summary: >
+    DevOps Engineer with 3.5+ years at NSE (National Stock Exchange of India).
+    Expert in AWS cloud infrastructure, Kubernetes orchestration, Terraform IaC,
+    and CI/CD pipeline automation using Jenkins & GitHub Actions.
+    Strong BFSI/FinTech domain experience with production-grade deployments.
+
+job_preferences:
+  target_roles:
+    - "DevOps Engineer"
+    - "Cloud Engineer"
+    # - "Site Reliability Engineer"
+  target_cities:
+    - "Pune"
+    - "Bangalore"
+    - "Navi Mumbai"
+  job_types:
+    - "onsite"
+    - "hybrid"
+    - "remote"
+  min_experience: 1
+  max_experience: 5
+  must_have_keywords:
+    - "DevOps"
+    - "AWS"
+    - "Kubernetes"
+  nice_to_have_keywords:
+    - "Terraform"
+    - "Docker"
+    - "CI/CD"
+    - "Jenkins"
+    - "GitHub Actions"
+    - "Linux"
+    - "Ansible"
+  exclude_keywords:
+    - "10+ years"
+    - "15+ years"
+    - "Director"
+    - "VP"
+    - "Chief"
+
+automation:
+  search_interval_hours: 8
+  min_score_to_notify: 50
+  min_score_to_draft: 60
+  min_score_to_auto_send: 999   # 999 = disabled. Set to 85 when confident.
+  max_emails_per_day: 10
+  daily_summary_time: "08:00"
+
+  # Night hold — pauses searching to save API calls
+  # Agent sleeps from 9 PM to 8 AM (no jobs posted at night)
+  night_hold:
+    enabled: true
+    start: "21:00"    # 9 PM — stop searching
+    end: "08:00"      # 8 AM — resume searching
+
+notifications:
+  email:
+    enabled: true
+    send_to: "xxxxxx@gmail.com"
+  telegram:
+    enabled: false
+    bot_token: ""
+    chat_id: ""
+
+email_settings:
+  signature: |
+    Best regards,
+    Sudarshan Gawande
+    DevOps Engineer | AWS Certified
+    Phone: xxxxxxx1086
+    LinkedIn: https://www.linkedin.com/in/sudarshan-gawande/
+    GitHub: https://github.com/sudarshan-gawande
+    Portfolio: https://sudarshangawande.com
+  tone: "professional"

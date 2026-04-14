@@ -1,0 +1,28 @@
+# Environment & secrets
+.env
+*.env
+
+# Runtime data (personal)
+seen_jobs.json
+job_tracker.csv
+email_count.json
+agent.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
