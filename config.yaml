@@ -4,8 +4,8 @@
 
 profile:
   name: "Sudarshan Gawande"
-  email: "xxxxxx@gmail.com"
-  phone: "xxxxxxx1086"
+  email: "xxxxxxx@gmail.com"
+  phone: "xxxxxxxx86"
   position: "DevOps Engineer"
   experience_years: 3.5
   skills:
@@ -66,7 +66,7 @@ job_preferences:
     - "Chief"
 
 automation:
-  search_interval_hours: 8
+  search_interval_hours: 1
   min_score_to_notify: 50
   min_score_to_draft: 60
   min_score_to_auto_send: 999   # 999 = disabled. Set to 85 when confident.
@@ -83,7 +83,7 @@ automation:
 notifications:
   email:
     enabled: true
-    send_to: "xxxxxx@gmail.com"
+    send_to: "xxxxxxx@gmail.com"
   telegram:
     enabled: false
     bot_token: ""
@@ -94,8 +94,8 @@ email_settings:
     Best regards,
     Sudarshan Gawande
     DevOps Engineer | AWS Certified
-    Phone: xxxxxxx1086
+    Phone: xxxxxxx86
     LinkedIn: https://www.linkedin.com/in/sudarshan-gawande/
-    GitHub: https://github.com/sudarshan-gawande
     Portfolio: https://sudarshangawande.com
+    GitHub: https://github.com/sudarshan-gawande
   tone: "professional"

@@ -3,7 +3,7 @@ version: '3.8'
 services:
   job-agent:
     build: .
-    container_name: ai-job-hunting-agent
+    container_name: job-hunting-agent
     restart: always
     env_file:
       - .env
