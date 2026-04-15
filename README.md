@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="docs/images/banner.png" alt="AI Job Hunting Agent" width="100%">
-</p>
-
 <h1 align="center">🤖 AI Job Hunting Agent</h1>
 
 <p align="center">
